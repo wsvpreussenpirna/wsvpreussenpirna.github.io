@@ -1,45 +1,59 @@
 export default function App() {
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-b from-green-700 to-green-900 text-white">
-      {/* Logo / Vereinsname */}
-      <header className="text-center mb-12">
-        <h1 className="text-5xl font-extrabold">WSV Preussen Pirna</h1>
-        <p className="mt-2 text-lg">⚽ Offizielle Vereinsseite</p>
+    <div className="min-h-screen flex flex-col bg-black text-gray-900">
+      {/* Header */}
+      <header className="bg-[#0057b8] text-white px-6 py-4 flex items-center justify-between shadow-md z-10 relative">
+        <div className="flex items-center space-x-4">
+          <div className="w-8 h-8 bg-white rounded"></div>
+          <h1 className="font-bold text-lg">WSV Preußen Pirna</h1>
+        </div>
+        <nav className="space-x-6 font-medium">
+          <a href="#" className="hover:underline">Startseite</a>
+          <a href="#" className="hover:underline">Über uns</a>
+          <a href="#" className="hover:underline">News</a>
+          <a href="#" className="hover:underline">Spielplan & Turniere</a>
+          <a href="#" className="hover:underline">Fanbereich</a>
+          <a href="#" className="hover:underline">Shop</a>
+          <a href="#" className="hover:underline">Sponsoren</a>
+          <a href="#" className="hover:underline">Kontakt</a>
+        </nav>
       </header>
 
-      {/* Link-Buttons */}
-      <main className="flex flex-col gap-4 w-64">
-        <a
-          href="https://instagram.com/wsv_preussen_pirna_24"
-          target="_blank"
-          className="block text-center bg-pink-500 hover:bg-pink-600 py-3 rounded-lg font-semibold shadow-lg transition"
-        >
-          📸 Instagram
-        </a>
-        <a
-          href="https://youtube.com/@WSV_Preussen_Pirna_TV"
-          target="_blank"
-          className="block text-center bg-red-600 hover:bg-red-700 py-3 rounded-lg font-semibold shadow-lg transition"
-        >
-          🎥 WSV TV
-        </a>
-        <a
-          href="#spized"
-          target="_blank"
-          className="block text-center bg-yellow-500 hover:bg-yellow-600 py-3 rounded-lg font-semibold shadow-lg transition text-black"
-        >
-          🛒 Spized Shop
-        </a>
-        <a
-          href="#turniere"
-          className="block text-center bg-blue-600 hover:bg-blue-700 py-3 rounded-lg font-semibold shadow-lg transition"
-        >
-          🏆 Turniere
-        </a>
+      {/* Main Content */}
+      <main
+        className="flex-grow bg-black bg-center bg-no-repeat bg-contain"
+        style={{ backgroundImage: "url('/bg.png')" }}
+      >
+        <section className="px-6 py-12 grid md:grid-cols-2 gap-8 items-center text-white">
+          <div>
+            <h2 className="text-4xl font-bold mb-4">Willkommen</h2>
+            <p className="mb-6">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </div>
+          <div className="bg-gray-300 rounded-lg h-48"></div>
+        </section>
+
+        {/* Social Links */}
+        <section className="px-6 py-12 flex flex-wrap gap-4 justify-center">
+          <button className="px-6 py-3 border rounded-lg flex items-center gap-2 text-white">
+            📸 Instagram
+          </button>
+          <button className="px-6 py-3 border rounded-lg flex items-center gap-2 text-white">
+            ▶️ WSV TV
+          </button>
+          <button className="px-6 py-3 border rounded-lg flex items-center gap-2 text-white">
+            🛍️ Spized Shop
+          </button>
+          <button className="px-6 py-3 border rounded-lg flex items-center gap-2 text-white">
+            🏆 Turniere
+          </button>
+        </section>
       </main>
 
       {/* Footer */}
-      <footer className="mt-12 text-sm opacity-75">
+      <footer className="bg-[#0057b8] text-white text-center py-4 mt-auto">
         © {new Date().getFullYear()} WSV Preussen Pirna
       </footer>
     </div>

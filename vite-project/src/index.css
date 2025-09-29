@@ -1,1 +1,24 @@
 @import "tailwindcss";
+
+/* Vereinsfarben als CSS-Variablen */
+:root{
+  --vereins-blau: #0057b8;
+  --vereins-gelb: #ffd700;
+}
+
+/* kleine helper-classes für wiederverwendbare Farbklassen */
+.bg-vereinsblau { background-color: var(--vereins-blau); }
+.text-vereinsgelb { color: var(--vereins-gelb); }
+.bg-vereinsgelb { background-color: var(--vereins-gelb); }
+.text-vereinsblau { color: var(--vereins-blau); }
+
+/* optional: Button hover-effekt (kannst du mit Tailwind-Utilities kombinieren) */
+.btn-vereins {
+  background-color: var(--vereins-gelb);
+  color: var(--vereins-blau);
+  border-radius: 0.75rem;
+  padding: 0.75rem 1rem;
+  font-weight: 600;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+}
+.btn-vereins:hover { filter:brightness(0.95); transform: translateY(-2px); }
