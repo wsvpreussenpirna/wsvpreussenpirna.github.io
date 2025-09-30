@@ -48,33 +48,42 @@ export default function About() {
       <section>
         <h2 className="text-3xl font-bold mb-4">Kader</h2>
         <div className="overflow-x-auto">
-  <table className="table-auto border-collapse text-left inline-block">
-    <thead>
-      <tr className="bg-vereinsgelb text-white">
-        <th className="px-4 py-2">Nr.</th>
-        <th className="px-4 py-2">Name</th>
-        <th className="px-4 py-2">Position</th>
-        <th className="px-4 py-2">Beitritt</th>
-        <th className="px-4 py-2">Rolle</th>
-      </tr>
-    </thead>
-    <tbody>
-      {players.map((player, idx) => (
-        <tr
-          key={idx}
-          className="odd:bg-[#222] even:bg-[#333] hover:bg-[#444]"
-        >
-          <td className="px-4 py-2">{player.number}</td>
-          <td className="px-4 py-2">{player.name}</td>
-          <td className="px-4 py-2">{player.position}</td>
-          <td className="px-4 py-2">{player.joined}</td>
-          <td className="px-4 py-2">{player.role || ""}</td>
-        </tr>
-      ))}
-    </tbody>
-  </table>
-</div>
-
+          <div className="flex min-h-[calc(100%)]">
+            <div className="relative flex flex-col">
+                <div className="p-[8px] overflow-hidden relative leading-none">
+                  <span className="absolute top-0 left-0 w-32 h-3 bg-vereinsblau"></span>                  
+                  <span className="absolute top-0 left-0 w-3 h-32 bg-vereinsblau"></span>
+                  <span className="absolute bottom-0 right-0 w-32 h-3 bg-vereinsblau"></span>                  
+                  <span className="absolute bottom-0 right-0 w-3 h-32 bg-vereinsblau"></span>   
+                  <table className="table-auto border-collapse text-left block bg-black">
+                    <thead>
+                      <tr className="bg-vereinsgelb text-white">
+                        <th className="px-4 py-2">Nr.</th>
+                        <th className="px-4 py-2">Name</th>
+                        <th className="px-4 py-2">Position</th>
+                        <th className="px-4 py-2">Beitritt</th>
+                        <th className="px-4 py-2">Rolle</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {players.map((player, idx) => (
+                        <tr
+                          key={idx}
+                          className="odd:bg-[#222] even:bg-[#333] hover:bg-[#444]"
+                        >
+                          <td className="px-4 py-2">{player.number}</td>
+                          <td className="px-4 py-2">{player.name}</td>
+                          <td className="px-4 py-2">{player.position}</td>
+                          <td className="px-4 py-2">{player.joined}</td>
+                          <td className="px-4 py-2">{player.role || ""}</td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+            </div>
+          </div>
+        </div>
         {/* Legende */}
         <div className="mt-4 text-sm text-gray-300">
           <p className="font-bold mb-1">Legende:</p>
