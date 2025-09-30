@@ -19,5 +19,12 @@
     "topic": "Vereinsleben",
     "date": "01.09.2025",
     "image": "/news3.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Test Github",
+    "topic": "Vereinsleben",
+    "date": "01.09.2025",
+    "image": "/news4.jpg"
   }
 ]
