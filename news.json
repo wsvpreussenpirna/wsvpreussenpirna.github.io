@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "title": "Heimsieg gegen Rivalen",
+    "topic": "Spielbericht",
+    "date": "28.09.2025",
+    "image": "/news1.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Jugendturnier in Pirna",
+    "topic": "Turniere",
+    "date": "15.09.2025",
+    "image": "/news2.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Neuer Trikotsponsor vorgestellt",
+    "topic": "Vereinsleben",
+    "date": "01.09.2025",
+    "image": "/news3.jpg"
+  }
+]
