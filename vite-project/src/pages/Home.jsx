@@ -11,20 +11,27 @@ export default function Home() {
           <p className="mb-6">
             Das ist die offizielle Webseite des Wandersportvereins Preußen Pirna 2024 e. V. Nach der Gründung am 17. August 2024 und zahlreich absolvierten Turnieren und Spielen, konnten wir uns als geschätzter Hobbyverein im Raum Dresden-Pirna etablieren. Von anstehenden Turnieren bis hin zum Fanshop - In diesem Bereich findest du alles, was du über den WSV Preußen Pirna wissen musst. Werde auch du Teil unserer Geschichte!
           </p>
-        </div>
-        <div>
-          <img
-            src="/welcome.jpg"
-            alt="Willkommensbild"
-            className="rounded-lg shadow-lg max-h-64 w-auto mx-auto"
-          />
-        </div>
+          </div>
+            <div className="flex min-h-[calc(100%)]">
+              <div className="relative flex flex-col">
+                <div className="p-[8px] overflow-hidden relative leading-none">
+                <span className="absolute top-0 left-0 w-24 md:w-32 h-3 bg-vereinsblau"></span>                  
+                <span className="absolute top-0 left-0 w-3 h-24 md:h-32 bg-vereinsblau"></span>
+                <span className="absolute bottom-0 right-0 w-24 md:w-32 h-3 bg-vereinsblau"></span>                  
+                <span className="absolute bottom-0 right-0 w-3 h-24 md:h-32 bg-vereinsblau"></span>
+                <img
+                    src="/welcome.jpg"
+                    alt="Willkommensbild"
+                    className="max-h-64 w-auto mx-auto"
+                />
+              </div>
+            </div>
+          </div>
       </section>
 
       {/* Social Buttons */}
       <section className="px-6 py-12 flex flex-wrap gap-8 justify-center">
-          <a href="https://www.instagram.com/wsv_preussen_pirna_24
-" className="relative w-40 h-16 text-vereinsblau font-bold flex items-center justify-center shadow-md hover:opacity-90 overflow-hidden">
+          <a href="https://www.instagram.com/wsv_preussen_pirna_24" className="relative w-40 h-16 text-vereinsblau font-bold flex items-center justify-center shadow-md hover:opacity-90 overflow-hidden">
             <span class="relative z-1">📸 Instagram</span>
             <span className="absolute top-2 left-2 w-36 h-12 bg-vereinsgelb" ></span>
             <span className="absolute top-0 left-0 w-8/40 h-3 bg-vereinsblau"></span>   
