@@ -3,6 +3,28 @@ import { useEffect, useState } from "react";
 export default function News() {
   const [newsItems, setNewsItems] = useState([]);
 
+  /* Testdaten 
+  useEffect(() => {
+    // Statt fetch → lokale Testdaten
+    const testData = [
+      {
+        id: 1,
+        title: "Testartikel 1",
+        topic: "Allgemein",
+        date: "30.09.2025",
+        image: "/welcome.jpg", // oder ein Bild im public-Ordner
+      },
+      {
+        id: 2,
+        title: "Testartikel 2",
+        topic: "Turnier",
+        date: "28.09.2025",
+        image: "/logo-wsvpp.png",
+      },
+    ];
+    setNewsItems(testData);
+  }, []);*/
+
   useEffect(() => {
     fetch("/news.json")
       .then((response) => response.json())
@@ -40,8 +62,10 @@ export default function News() {
                   {/* Inhalt */}
                   <div className="p-4">
                     <h3 className="text-xl text-vereinsblau font-bold mb-2">{item.title}</h3>
-                    <p className="text-sm text-vereinsblau mb-1">{item.topic}</p>
-                    <p className="text-sm text-vereinsblau">{item.date}</p>
+                    <div className="flex justify-between text-sm text-vereinsblau">
+                        <p>{item.topic}</p>
+                        <p>{item.date}</p>
+                    </div>
                   </div>
                 </div>
             </div>
