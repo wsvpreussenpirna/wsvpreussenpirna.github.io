@@ -1,12 +1,12 @@
 export default function About() {
   const players = [
-    { number: "4", name: "N. Junghans", joined: "18.8.2024", position: "IV/LV", role: "" },
-    { number: "5", name: "S. Scherf", joined: "17.8.2024" ,position: "IV", role: "G/V"},
+    { number: "4", name: "N. Junghans", joined: "18.8.2024", position: "IV", role: "" },
+    { number: "5", name: "S. Scherf", joined: "17.8.2024" ,position: "TW/IV/RM/ZOM", role: "G/V"},
     { number: "7/27", name: "M. Oehlert", joined: "19.8.2024" ,position: "RV/RM", role: "V"},
     { number: "8", name: "F. Schildbach", joined: "5.11.2024" ,position: "TW", role: ""},
     { number: "9", name: "F. Junghans", joined: "17.8.2024" ,position: "ST", role: "K/T/G/V"},
     { number: "10", name: "E. Gruner", joined: "17.8.2024" ,position: "LM/LF", role: "K/G/V"},
-    { number: "11", name: "J. Anders", joined: "26.8.2025" ,position: "RF", role: ""},   
+    { number: "11", name: "J. Anders", joined: "26.8.2025" ,position: "RM/ZOM", role: ""},   
     { number: "13", name: "L. ?", joined: "16.1.2025" ,position: "?", role: ""},     
     { number: "69", name: "P. Sturm", joined: "28.8.2024" ,position: "TW/IV", role: ""},
   ];
