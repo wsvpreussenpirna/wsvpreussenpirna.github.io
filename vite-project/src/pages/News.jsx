@@ -26,7 +26,7 @@ export default function News() {
   }, []);*/
 
   useEffect(() => {
-    fetch("/news.json")
+    fetch("/WSVEngine/News/news.json")
       .then((response) => response.json())
       .then((data) => setNewsItems(data))
       .catch((err) => console.error("Fehler beim Laden der News:", err));
@@ -54,7 +54,7 @@ export default function News() {
                   >
                     {/* Titelbild */}
                   <img
-                    src={item.image}
+                    src={"/WSVEngine/News/Bilder" + item.image}
                     alt={item.title}
                     className="w-full h-40 object-cover"
                   />

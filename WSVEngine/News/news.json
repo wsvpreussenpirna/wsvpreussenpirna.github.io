@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Heimsieg gegen Rivalen",
+    "topic": "Spielbericht",
+    "date": "28.09.2025",
+    "image": "/news.png",
+    "content": "In einem spannenden Spiel konnte unser Team einen wichtigen Heimsieg gegen den Rivalen erringen. Die Mannschaft zeigte eine starke Leistung und überzeugte durch taktische Disziplin und Einsatzbereitschaft. Die Fans im Stadion sorgten für eine großartige Atmosphäre und unterstützten das Team lautstark. Mit diesem Sieg festigt der Verein seine Position in der Liga und blickt optimistisch auf die kommenden Herausforderungen."
+  },
+  {
+    "id": 2,
+    "title": "Jugendturnier in Pirna",
+    "topic": "Turniere",
+    "date": "15.09.2025",
+    "image": "/news2.jpg",
+    "content": "Am vergangenen Wochenende fand in Pirna ein spannendes Jugendturnier statt, bei dem zahlreiche Nachwuchsteams aus der Region gegeneinander antraten. Unser Verein war mit mehreren Mannschaften vertreten, die ihr Können unter Beweis stellten. Die jungen Spieler zeigten großen Einsatz und beeindruckten durch ihre Spielfreude und Teamgeist. Das Turnier bot eine hervorragende Gelegenheit, Talente zu entdecken und den Zusammenhalt innerhalb der Jugendabteilung zu stärken."
+  },
+  {
+    "id": 3,
+    "title": "Neuer Trikotsponsor vorgestellt",
+    "topic": "Vereinsleben",
+    "date": "01.09.2025",
+    "image": "/news3.jpg",
+    "content": "Der Verein freut sich, einen neuen Trikotsponsor vorstellen zu dürfen. Nach intensiven Verhandlungen konnte eine Partnerschaft mit einem renommierten Unternehmen aus der Region geschlossen werden. Der neue Sponsor wird den Verein nicht nur finanziell unterstützen, sondern auch aktiv in das Vereinsleben eingebunden sein. Die offizielle Vorstellung des Sponsors fand im Rahmen einer kleinen Feier statt, bei der auch die neuen Trikots präsentiert wurden. Der Verein blickt mit großer Zuversicht auf die Zusammenarbeit und die gemeinsamen Ziele."
+  }
+]
