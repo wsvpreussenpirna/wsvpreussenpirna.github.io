@@ -42,7 +42,7 @@ export default function NewsDetail() {
                 <span className="absolute bottom-0 right-0 w-24 h-3 bg-vereinsblau"></span>                  
                 <span className="absolute bottom-0 right-0 w-3 h-24 bg-vereinsblau"></span>
         <img
-          src={"/WSVEngine/News/Bilder" + article.image}
+          src={"/WSVEngine/News/Bilder/" + article.image}
           alt={article.title}
         />
         </div>

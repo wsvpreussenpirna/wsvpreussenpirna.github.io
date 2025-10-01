@@ -56,7 +56,7 @@ export default function News() {
                   >
                     {/* Titelbild */}
                   <img
-                    src={"/WSVEngine/News/Bilder" + item.image}
+                    src={"/WSVEngine/News/Bilder/" + item.image}
                     alt={item.title}
                     className="w-full h-40 object-cover"
                   />
