@@ -24,10 +24,10 @@ export default function About() {
         </div>
         <div className="flex items-center justify-center">
           <div className="relative p-[8px] overflow-hidden leading-none">
-            <span className="absolute top-0 left-0 w-32 md:w-48 h-3 bg-vereinsblau"></span>
-            <span className="absolute top-0 left-0 w-3 h-32 md:h-48 bg-vereinsblau"></span>
-            <span className="absolute bottom-0 right-0 w-32 md:w-48 h-3 bg-vereinsblau"></span>
-            <span className="absolute bottom-0 right-0 w-3 h-32 md:h-48 bg-vereinsblau"></span>
+            <span className="absolute top-0 left-0 w-24 h-3 bg-vereinsblau"></span>
+            <span className="absolute top-0 left-0 w-3 h-24 bg-vereinsblau"></span>
+            <span className="absolute bottom-0 right-0 w-24 h-3 bg-vereinsblau"></span>
+            <span className="absolute bottom-0 right-0 w-3 h-24 bg-vereinsblau"></span>
             <img
               src="/wanderung.png"
               alt="Bild der sächschen Schweiz mit Blick auf Lilienstein"
@@ -40,10 +40,10 @@ export default function About() {
       <section className="px-6 py-3 grid md:grid-cols-2 gap-12 items-center text-white">
         <div className="flex items-center justify-center">
           <div className="relative p-[8px] overflow-hidden leading-none h-full flex items-center">
-            <span className="absolute top-0 left-0 w-32 md:w-48 h-3 bg-vereinsblau"></span>
-            <span className="absolute top-0 left-0 w-3 h-32 md:h-48 bg-vereinsblau"></span>
-            <span className="absolute bottom-0 right-0 w-32 md:w-48 h-3 bg-vereinsblau"></span>
-            <span className="absolute bottom-0 right-0 w-3 h-32 md:h-48 bg-vereinsblau"></span>
+            <span className="absolute top-0 left-0 w-24 h-3 bg-vereinsblau"></span>
+            <span className="absolute top-0 left-0 w-3 h-24 bg-vereinsblau"></span>
+            <span className="absolute bottom-0 right-0 w-24 h-3 bg-vereinsblau"></span>
+            <span className="absolute bottom-0 right-0 w-3 h-24 bg-vereinsblau"></span>
             <img
               src="/trikot.png"
               alt="Erstes WSV Preußen Pirna Trikot"
@@ -62,10 +62,10 @@ export default function About() {
         </div>
         <div className="flex items-center justify-center">
           <div className="relative p-[8px] overflow-hidden leading-none">
-            <span className="absolute top-0 left-0 w-40 md:w-46 h-3 bg-vereinsblau"></span>
-            <span className="absolute top-0 left-0 w-3 h-40 md:h-46 bg-vereinsblau"></span>
-            <span className="absolute bottom-0 right-0 w-40 md:w-46 h-3 bg-vereinsblau"></span>
-            <span className="absolute bottom-0 right-0 w-3 h-40 md:h-46 bg-vereinsblau"></span>
+            <span className="absolute top-0 left-0 w-24 h-3 bg-vereinsblau"></span>
+            <span className="absolute top-0 left-0 w-3 h-24 bg-vereinsblau"></span>
+            <span className="absolute bottom-0 right-0 w-24 h-3 bg-vereinsblau"></span>
+            <span className="absolute bottom-0 right-0 w-3 h-24 bg-vereinsblau"></span>
             <img
               src="/wappen_alt.jpg"
               alt="Altes Wappen mit Hintergrund"
@@ -104,10 +104,10 @@ export default function About() {
           <div className="flex min-h-[calc(100%)]">
             <div className="relative flex flex-col w-full">
               <div className="p-[8px] overflow-hidden relative leading-none w-full">
-                <span className="absolute top-0 left-0 w-24 md:w-32 h-3 bg-vereinsblau"></span>
-                <span className="absolute top-0 left-0 w-3 h-24 md:h-32 bg-vereinsblau"></span>
-                <span className="absolute bottom-0 right-0 w-24 md:w-32 h-3 bg-vereinsblau"></span>
-                <span className="absolute bottom-0 right-0 w-3 h-24 md:h-32 bg-vereinsblau"></span>
+                <span className="absolute top-0 left-0 w-24 h-3 bg-vereinsblau"></span>
+                <span className="absolute top-0 left-0 w-3 h-24 bg-vereinsblau"></span>
+                <span className="absolute bottom-0 right-0 w-24 h-3 bg-vereinsblau"></span>
+                <span className="absolute bottom-0 right-0 w-3 h-24 bg-vereinsblau"></span>
                 {/* Mobile: Karten-Layout */}
                 <div className="block sm:hidden w-full">
                   {players.map((player, idx) => (

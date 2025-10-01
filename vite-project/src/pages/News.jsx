@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
 export default function News() {
   const [newsItems, setNewsItems] = useState([]);
@@ -42,12 +43,13 @@ export default function News() {
       {/* Grid Layout */}
       <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
         {newsItems.map((item) => (
+          <Link to={`/news/${item.id}`} key={item.id}>
             <div className="relative flex flex-col hover:scale-[1.02] transition-transform">
                 <div className="p-[8px] overflow-hidden relative leading-none">
-                  <span className="absolute top-0 left-0 w-36 h-3 bg-vereinsblau"></span>                  
-                  <span className="absolute top-0 left-0 w-3 h-36 bg-vereinsblau"></span>
-                  <span className="absolute bottom-0 right-0 w-36 h-3 bg-vereinsblau"></span>                  
-                  <span className="absolute bottom-0 right-0 w-3 h-36 bg-vereinsblau"></span> 
+                  <span className="absolute top-0 left-0 w-24 h-3 bg-vereinsblau"></span>                  
+                  <span className="absolute top-0 left-0 w-3 h-24 bg-vereinsblau"></span>
+                  <span className="absolute bottom-0 right-0 w-24 h-3 bg-vereinsblau"></span>                  
+                  <span className="absolute bottom-0 right-0 w-3 h-24 bg-vereinsblau"></span> 
                   <div
                     key={item.id}
                     className="bg-vereinsgelb overflow-hidden"
@@ -70,6 +72,7 @@ export default function News() {
                 </div>
             </div>
           </div>
+          </Link>
         ))}
       </div>
     </main>

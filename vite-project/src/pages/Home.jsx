@@ -15,10 +15,10 @@ export default function Home() {
             <div className="flex min-h-[calc(100%)]">
               <div className="relative flex flex-col">
                 <div className="p-[8px] overflow-hidden relative leading-none">
-                <span className="absolute top-0 left-0 w-24 md:w-32 h-3 bg-vereinsblau"></span>                  
-                <span className="absolute top-0 left-0 w-3 h-24 md:h-32 bg-vereinsblau"></span>
-                <span className="absolute bottom-0 right-0 w-24 md:w-32 h-3 bg-vereinsblau"></span>                  
-                <span className="absolute bottom-0 right-0 w-3 h-24 md:h-32 bg-vereinsblau"></span>
+                <span className="absolute top-0 left-0 w-24 h-3 bg-vereinsblau"></span>                  
+                <span className="absolute top-0 left-0 w-3 h-24 bg-vereinsblau"></span>
+                <span className="absolute bottom-0 right-0 w-24 h-3 bg-vereinsblau"></span>                  
+                <span className="absolute bottom-0 right-0 w-3 h-24 bg-vereinsblau"></span>
                 <img
                     src="/welcome.jpg"
                     alt="Willkommensbild"
