@@ -1,10 +1,10 @@
 export default function About() {
   const players = [
-    { number: "4", name: "N. Junghanß", joined: "18.8.2024", position: "IV", role: "" },
+    { number: "4", name: "N. Junghannß", joined: "18.8.2024", position: "IV", role: "" },
     { number: "5", name: "S. Scherf", joined: "17.8.2024" ,position: "TW/IV/RM/ZOM", role: "G/V"},
     { number: "7/27", name: "M. Oehlert", joined: "19.8.2024" ,position: "RV/RM", role: "V"},
     { number: "8", name: "F. Schildbach", joined: "5.11.2024" ,position: "TW", role: ""},
-    { number: "9", name: "F. Junghanß", joined: "17.8.2024" ,position: "ST", role: "K/T/G/V"},
+    { number: "9", name: "F. Junghannß", joined: "17.8.2024" ,position: "ST", role: "K/T/G/V"},
     { number: "10", name: "E. Gruner", joined: "17.8.2024" ,position: "LM/LF", role: "K/G/V"},
     { number: "11", name: "J. Anders", joined: "26.8.2025" ,position: "RM/ZOM", role: ""},   
     { number: "13", name: "L. Rokitta", joined: "16.1.2025" ,position: "LV", role: ""},     
@@ -52,7 +52,7 @@ export default function About() {
           </div>
         </div>
         <div>
-          <p className="leading-relaxed">Nachfolgend ist es E. Gruner zu verdanken, dass wir mit unserem Verein binnen weniger Stunden nach dem Treffen Vereinswappen und erste Trikotsätze hatten. Unser bisher nie wirklich ausgesprochener, aber stets präsenter Traum einer Gründung eines eigenen Vereins nach unseren Vorstellungen, nahm die nächsten Tage nun weiter verstärkt Form an. Erste Transfers von N. Junghanß und M. Oehlert wurden eingetütet und der WSV Preußen Pirna fand in der Blütenfest-Arena auch seine sportliche Heimat. Nach gut einem Monat begannen wir mit regelmäßigen Trainings, bekamen weiteren Zuwachs (P. Sturm, F. Schildbach, L. ) und präsentierten uns erstmalig am 03.11.2024 beim Paulaner Cup im Vereinsgeschehen. Weitere Turniere, Transfers und Testspiele folgten, Derbys wurden beschlossen. Der WSV bahnte sich sportlich seinen Weg und etablierte sich im Raum Dresden-Pirna als ein ernstzunehmender Verein. Dank E. Gruner kamen wir zu eigener Trikotausstattung und einem eigenen kleinen Fanshop. F. Junghannß half dem Bau einer Fangemeinde und M. Oehlert ist die gute Anbindung zur örtlich ansässigen Gemeinde zu verdanken. Somit etablierte sich der Wandersportverein nicht nur sportlich auf dem Papier, sondern auch abseits des Platzes oder an Laternen. Preußen Pirna wurde größer und größer.</p>
+          <p className="leading-relaxed">Nachfolgend ist es E. Gruner zu verdanken, dass wir mit unserem Verein binnen weniger Stunden nach dem Treffen Vereinswappen und erste Trikotsätze hatten. Unser bisher nie wirklich ausgesprochener, aber stets präsenter Traum einer Gründung eines eigenen Vereins nach unseren Vorstellungen, nahm die nächsten Tage nun weiter verstärkt Form an. Erste Transfers von N. Junghanß und M. Oehlert wurden eingetütet und der WSV Preußen Pirna fand in der Blütenfest-Arena auch seine sportliche Heimat. Nach gut einem Monat begannen wir mit regelmäßigen Trainings, bekamen weiteren Zuwachs (P. Sturm, F. Schildbach, L. Rokitta) und präsentierten uns erstmalig am 03.11.2024 beim Paulaner Cup im Vereinsgeschehen. Weitere Turniere, Transfers und Testspiele folgten, Derbys wurden beschlossen. Der WSV bahnte sich sportlich seinen Weg und etablierte sich im Raum Dresden-Pirna als ein ernstzunehmender Verein. Dank E. Gruner kamen wir zu eigener Trikotausstattung und einem eigenen kleinen Fanshop. F. Junghannß half dem Bau einer Fangemeinde und M. Oehlert ist die gute Anbindung zur örtlich ansässigen Gemeinde zu verdanken. Somit etablierte sich der Wandersportverein nicht nur sportlich auf dem Papier, sondern auch abseits des Platzes oder an Laternen. Preußen Pirna wurde größer und größer.</p>
         </div>
       </section>
 
