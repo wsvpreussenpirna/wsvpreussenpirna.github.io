@@ -52,7 +52,7 @@ export default function About() {
           </div>
         </div>
         <div>
-          <p className="leading-relaxed">Nachfolgend ist es E. Gruner zu verdanken, dass wir mit unserem Verein binnen weniger Stunden nach dem Treffen Vereinswappen und erste Trikotsätze hatten. Unser bisher nie wirklich ausgesprochener, aber stets präsenter Traum einer Gründung eines eigenen Vereins nach unseren Vorstellungen, nahm die nächsten Tage nun weiter verstärkt Form an. Erste Transfers von N. Junghanß und M. Oehlert wurden eingetütet und der WSV Preußen Pirna fand in der Blütenfest-Arena auch seine sportliche Heimat. Nach gut einem Monat begannen wir mit regelmäßigen Trainings, bekamen weiteren Zuwachs (P. Sturm, F. Schildbach, L. Rokitta) und präsentierten uns erstmalig am 03.11.2024 beim Paulaner Cup im Vereinsgeschehen. Weitere Turniere, Transfers und Testspiele folgten, Derbys wurden beschlossen. Der WSV bahnte sich sportlich seinen Weg und etablierte sich im Raum Dresden-Pirna als ein ernstzunehmender Verein. Dank E. Gruner kamen wir zu eigener Trikotausstattung und einem eigenen kleinen Fanshop. F. Junghannß half dem Bau einer Fangemeinde und M. Oehlert ist die gute Anbindung zur örtlich ansässigen Gemeinde zu verdanken. Somit etablierte sich der Wandersportverein nicht nur sportlich auf dem Papier, sondern auch abseits des Platzes oder an Laternen. Preußen Pirna wurde größer und größer.</p>
+          <p className="leading-relaxed">Nachfolgend ist es E. Gruner zu verdanken, dass wir mit unserem Verein binnen weniger Stunden nach dem Treffen Vereinswappen und erste Trikotsätze hatten. Unser bisher nie wirklich ausgesprochener, aber stets präsenter Traum einer Gründung eines eigenen Vereins nach unseren Vorstellungen, nahm die nächsten Tage nun weiter verstärkt Form an. Erste Transfers von N. Junghannß und M. Oehlert wurden eingetütet und der WSV Preußen Pirna fand in der Blütenfest-Arena auch seine sportliche Heimat. Nach gut einem Monat begannen wir mit regelmäßigen Trainings, bekamen weiteren Zuwachs (P. Sturm, F. Schildbach, L. Rokitta) und präsentierten uns erstmalig am 03.11.2024 beim Paulaner Cup im Vereinsgeschehen. Weitere Turniere, Transfers und Testspiele folgten, Derbys wurden beschlossen. Der WSV bahnte sich sportlich seinen Weg und etablierte sich im Raum Dresden-Pirna als ein ernstzunehmender Verein. Dank E. Gruner kamen wir zu eigener Trikotausstattung und einem eigenen kleinen Fanshop. F. Junghannß half dem Bau einer Fangemeinde und M. Oehlert ist die gute Anbindung zur örtlich ansässigen Gemeinde zu verdanken. Somit etablierte sich der Wandersportverein nicht nur sportlich auf dem Papier, sondern auch abseits des Platzes oder an Laternen. Preußen Pirna wurde größer und größer.</p>
         </div>
       </section>
 
@@ -81,59 +81,75 @@ export default function About() {
         </p>
       </section>
 
-      {/* Vorstand */}
+      {/* Vorstand 
       <section className="px-6 py-3">
         <h2 className="text-3xl font-bold mb-4">Vorstand</h2>
         <p className="leading-relaxed">
           Vorstandtext
         </p>
-      </section>
+      </section>*/}
 
-      {/* Trainer */}
+      {/* Trainer 
       <section className="px-6 py-3">
         <h2 className="text-3xl font-bold mb-4">Trainer</h2>
         <p className="leading-relaxed">
           Trainertext
         </p>
-      </section>
+      </section>*/}
 
       {/* Kader */}
       <section className="px-6 py-3">
         <h2 className="text-3xl font-bold mb-4">Kader</h2>
         <div className="overflow-x-auto">
           <div className="flex min-h-[calc(100%)]">
-            <div className="relative flex flex-col">
-                <div className="p-[8px] overflow-hidden relative leading-none">
-                  <span className="absolute top-0 left-0 w-24 md:w-32 h-3 bg-vereinsblau"></span>                  
-                  <span className="absolute top-0 left-0 w-3 h-24 md:h-32 bg-vereinsblau"></span>
-                  <span className="absolute bottom-0 right-0 w-24 md:w-32 h-3 bg-vereinsblau"></span>                  
-                  <span className="absolute bottom-0 right-0 w-3 h-24 md:h-32 bg-vereinsblau"></span>   
-                  <table className="table-auto border-collapse text-left block bg-black">
-                    <thead>
-                      <tr className="bg-vereinsgelb text-white">
-                        <th className="px-4 py-2">Nr.</th>
-                        <th className="px-4 py-2">Name</th>
-                        <th className="px-4 py-2">Position</th>
-                        <th className="px-4 py-2">Beitritt</th>
-                        <th className="px-4 py-2">Rolle</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      {players.map((player, idx) => (
-                        <tr
-                          key={idx}
-                          className="odd:bg-[#222] even:bg-[#333] hover:bg-[#444]"
-                        >
-                          <td className="px-4 py-2">{player.number}</td>
-                          <td className="px-4 py-2">{player.name}</td>
-                          <td className="px-4 py-2">{player.position}</td>
-                          <td className="px-4 py-2">{player.joined}</td>
-                          <td className="px-4 py-2">{player.role || ""}</td>
-                        </tr>
-                      ))}
-                    </tbody>
-                  </table>
+            <div className="relative flex flex-col w-full">
+              <div className="p-[8px] overflow-hidden relative leading-none w-full">
+                <span className="absolute top-0 left-0 w-24 md:w-32 h-3 bg-vereinsblau"></span>
+                <span className="absolute top-0 left-0 w-3 h-24 md:h-32 bg-vereinsblau"></span>
+                <span className="absolute bottom-0 right-0 w-24 md:w-32 h-3 bg-vereinsblau"></span>
+                <span className="absolute bottom-0 right-0 w-3 h-24 md:h-32 bg-vereinsblau"></span>
+                {/* Mobile: Karten-Layout */}
+                <div className="block sm:hidden w-full">
+                  {players.map((player, idx) => (
+                    <div
+                      key={idx}
+                      className="odd:bg-[#222] even:bg-[#333] hover:bg-[#444] w-full mb-0 flex flex-col"
+                    >
+                      <div className="px-4 py-2 text-left">{player.number}</div>
+                      <div className="px-4 py-2 text-left">{player.name}</div>
+                      <div className="px-4 py-2 text-left">{player.position}</div>
+                      <div className="px-4 py-2 text-left">{player.joined}</div>
+                      <div className="px-4 py-2 text-left">{player.role || ""}</div>
+                    </div>
+                  ))}
                 </div>
+                {/* Desktop: Tabelle */}
+                <table className="table-auto border-collapse text-left bg-black w-full hidden sm:table">
+                  <thead>
+                    <tr className="bg-vereinsgelb text-white">
+                      <th className="px-4 py-2">Nr.</th>
+                      <th className="px-4 py-2">Name</th>
+                      <th className="px-4 py-2">Position</th>
+                      <th className="px-4 py-2">Beitritt</th>
+                      <th className="px-4 py-2">Rolle</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {players.map((player, idx) => (
+                      <tr
+                        key={idx}
+                        className="odd:bg-[#222] even:bg-[#333] hover:bg-[#444]"
+                      >
+                        <td className="px-4 py-2">{player.number}</td>
+                        <td className="px-4 py-2">{player.name}</td>
+                        <td className="px-4 py-2">{player.position}</td>
+                        <td className="px-4 py-2">{player.joined}</td>
+                        <td className="px-4 py-2">{player.role || ""}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
             </div>
           </div>
         </div>
@@ -151,4 +167,5 @@ export default function About() {
     </main>
   );
 }
+
 
