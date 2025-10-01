@@ -1,4 +1,9 @@
+import { useEffect, useState } from "react";
+
 export default function About() {
+  const [players, setPlayers] = useState([]);
+
+  /*
   const players = [
     { number: "4", name: "N. Junghannß", joined: "18.8.2024", position: "IV", role: "" },
     { number: "5", name: "S. Scherf", joined: "17.8.2024" ,position: "TW/IV/RM/ZOM", role: "G/V"},
@@ -9,7 +14,14 @@ export default function About() {
     { number: "11", name: "J. Anders", joined: "26.8.2025" ,position: "RM/ZOM", role: ""},   
     { number: "13", name: "L. Rokitta", joined: "16.1.2025" ,position: "LV", role: ""},     
     { number: "69", name: "P. Sturm", joined: "28.8.2024" ,position: "TW/IV", role: ""},
-  ];
+  ];*/
+
+  useEffect(() => {
+    fetch("/WSVEngine/Kader/kader.json")
+      .then((response) => response.json())
+      .then((data) => setPlayers(data))
+      .catch((err) => console.error("Fehler beim Laden der News:", err));
+  }, []);
 
   return (
     <main
@@ -140,7 +152,7 @@ export default function About() {
                         key={idx}
                         className="odd:bg-[#222] even:bg-[#333] hover:bg-[#444]"
                       >
-                        <td className="px-4 py-2">{player.number}</td>
+                        <td className="px-4 py-2 font-bold">{player.number}</td>
                         <td className="px-4 py-2">{player.name}</td>
                         <td className="px-4 py-2">{player.position}</td>
                         <td className="px-4 py-2">{player.joined}</td>
