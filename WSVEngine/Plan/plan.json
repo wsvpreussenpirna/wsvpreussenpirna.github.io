@@ -1,0 +1,22 @@
+[
+  {
+    "id": 2,
+    "date": "11.12.2025",
+    "name": "WSV Preussen Pirna – Herbstturnier",
+    "type": "Turnier",
+    "results": [
+        {"name": "Gruppenspiel - 1", "home": true, "enemy": "Wölfe" ,"result_h": 3, "result_a": 0},
+        {"name": "Achtelfinale", "home": false, "enemy": "Schalke 04" ,"result_h": 1, "result_a": 2}
+    ]
+  },
+  {
+    "id": 1,
+    "date": "5.11.2025",
+    "name": "WSV Preussen Pirna vs. SV Blau-Weiß Dresden",
+    "type": "Testspiel",
+    "results": [
+        {"name": "Spiel - 1", "home": true, "enemy": "Wölfe" ,"result_h": 3, "result_a": 0},
+        {"name": "Spiel - 2", "home": false, "enemy": "Wölfe" ,"result_h": 0, "result_a": 7}
+    ]
+  }
+]
