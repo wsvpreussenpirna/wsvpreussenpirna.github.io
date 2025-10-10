@@ -1,0 +1,37 @@
+[
+  {
+    "id": 7,
+    "title": "WSV 16:9 Hintergrund",
+    "file": "WSV-16-9-Hintergrund.png"
+  },
+  {
+    "id": 6,
+    "title": "WSV Handy Hintergrund",
+    "file": "WSV-Handy-Hintergrund.png"
+  },
+  {
+    "id": 5,
+    "title": "WSV Vorstand Logo",
+    "file": "WSVVorstand-Logo.png"
+  },
+  {
+    "id": 4,
+    "title": "WSV Retro Logo",
+    "file": "WSVRetro-Logo.jpg"
+  },
+  {
+    "id": 3,
+    "title": "WSV-TV Logo SW",
+    "file": "WSVTV-Logo-SW.png"
+  },
+  {
+    "id": 2,
+    "title": "WSV-TV Logo",
+    "file": "WSVTV-Logo-Farbe.png"
+  },
+  {
+    "id": 1,
+    "title": "Strafenkatalog",
+    "file": "Strafenkatalog.pdf"
+  }
+]

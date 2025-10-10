@@ -7,6 +7,8 @@ import News from "./pages/News";
 import NewsDetail from "./pages/NewsDetail";
 import Plan from "./pages/Plan";
 import PlanDetail from "./pages/PlanDetail";
+import Fan from "./pages/Fan";
+import FanDetail from "./pages/FanDetail";
 
 export default function App() {
   return (
@@ -21,6 +23,8 @@ export default function App() {
           <Route path="/news/:id" element={<NewsDetail />} />
           <Route path="/plan" element={<Plan />} />
           <Route path="/plan/:id" element={<PlanDetail />} />
+          <Route path="/fan" element={<Fan />} />
+          <Route path="/fan/:id" element={<FanDetail />} />
         </Routes>
 
         <Footer />
