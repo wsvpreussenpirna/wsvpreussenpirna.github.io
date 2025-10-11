@@ -9,6 +9,7 @@ import Plan from "./pages/Plan";
 import PlanDetail from "./pages/PlanDetail";
 import Fan from "./pages/Fan";
 import FanDetail from "./pages/FanDetail";
+import Sponsor from "./pages/Sponsor";
 
 export default function App() {
   return (
@@ -25,6 +26,7 @@ export default function App() {
           <Route path="/plan/:id" element={<PlanDetail />} />
           <Route path="/fan" element={<Fan />} />
           <Route path="/fan/:id" element={<FanDetail />} />
+          <Route path="/sponsor" element={<Sponsor />} />
         </Routes>
 
         <Footer />
