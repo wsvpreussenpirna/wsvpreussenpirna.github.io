@@ -1,22 +1,92 @@
 [
   {
-    "id": 2,
-    "date": "11.12.2025",
-    "name": "WSV Preussen Pirna – Herbstturnier",
+    "id": 7,
+    "date": "12.10.2025",
+    "name": "Testspiel Wölfe 3",
+    "type": "Testspiel",
+    "results": [
+        {"name": "Spiel - 1", "home": true, "enemy": "Dresdener Wölfe" ,"result_h": 5, "result_a": 1},
+        {"name": "Spiel - 2", "home": true, "enemy": "Dresdener Wölfe" ,"result_h": 3, "result_a": 0},
+        {"name": "Spiel - 3", "home": true, "enemy": "Dresdener Wölfe" ,"result_h": 2, "result_a": 1},
+        {"name": "Spiel - 4", "home": true, "enemy": "Dresdener Wölfe" ,"result_h": 3, "result_a": 1},
+        {"name": "Spiel - 5", "home": true, "enemy": "Dresdener Wölfe" ,"result_h": 7, "result_a": 1}
+    ]
+  },
+  {
+    "id": 6,
+    "date": "6.4.2025",
+    "name": "Frühlings Cup",
     "type": "Turnier",
     "results": [
-        {"name": "Gruppenspiel - 1", "home": true, "enemy": "Wölfe" ,"result_h": 3, "result_a": 0},
-        {"name": "Achtelfinale", "home": false, "enemy": "Schalke 04" ,"result_h": 1, "result_a": 2}
+        {"name": "Gruppenspiel - 1", "home": false, "enemy": "???" ,"result_h": 1, "result_a": 1},
+        {"name": "Gruppenspiel - 2", "home": false, "enemy": "FC Kicker" ,"result_h": 2, "result_a": 2},
+        {"name": "Halbfinale um Platz 13 (n.E.)", "home": false, "enemy": "Inter Neustadt" ,"result_h": 99, "result_a": 99},
+        {"name": "Finale um Platz 13 (n.E.)", "home": false, "enemy": "FC Torpedo 2" ,"result_h": 99, "result_a": 99}
+    ]
+  },
+  {
+    "id": 5,
+    "date": "23.3.2025",
+    "name": "Röhrsdorfer Cup",
+    "type": "Turnier",
+    "results": [
+        {"name": "Gruppenspiel - 1", "home": false, "enemy": "FV Röhrsdorf 1" ,"result_h": 99, "result_a": 99},
+        {"name": "Gruppenspiel - 2", "home": false, "enemy": "FV Röhrsdorf 2" ,"result_h": 99, "result_a": 99},
+        {"name": "Gruppenspiel - 3", "home": false, "enemy": "FV Röhrsdorf 1" ,"result_h": 99, "result_a": 99},
+        {"name": "Gruppenspiel - 4", "home": false, "enemy": "FV Röhrsdorf 2" ,"result_h": 99, "result_a": 99}
+    ]
+  },
+  {
+    "id": 4,
+    "date": "2.2.2025",
+    "name": "Wölfe Cup",
+    "type": "Turnier",
+    "results": [
+        {"name": "Gruppenspiel - 1", "home": false, "enemy": "Dresdener Wölfe 1" ,"result_h": 99, "result_a": 99},
+        {"name": "Gruppenspiel - 2", "home": false, "enemy": "Dresdener Wölfe 2" ,"result_h": 99, "result_a": 99},
+        {"name": "Gruppenspiel - 3", "home": false, "enemy": "Dresdener Wölfe 1" ,"result_h": 99, "result_a": 99},
+        {"name": "Gruppenspiel - 4", "home": false, "enemy": "Dresdener Wölfe 2" ,"result_h": 99, "result_a": 99}
+    ]
+  },
+  {
+    "id": 3,
+    "date": "15.12.2024",
+    "name": "Testspiel Wölfe 2",
+    "type": "Testspiel",
+    "results": [
+        {"name": "Spiel - 1", "home": false, "enemy": "Dresdener Wölfe" ,"result_h": 99, "result_a": 99},
+        {"name": "Spiel - 2", "home": false, "enemy": "Dresdener Wölfe" ,"result_h": 99, "result_a": 99},
+        {"name": "Spiel - 3", "home": false, "enemy": "Dresdener Wölfe" ,"result_h": 99, "result_a": 99},
+        {"name": "Spiel - 4", "home": false, "enemy": "Dresdener Wölfe" ,"result_h": 99, "result_a": 99},
+        {"name": "Spiel - 5", "home": false, "enemy": "Dresdener Wölfe" ,"result_h": 99, "result_a": 99}
+    ]
+  },
+  {
+    "id": 2,
+    "date": "17.11.2024",
+    "name": "Testspiel Wölfe 1",
+    "type": "Testspiel",
+    "results": [
+        {"name": "Spiel - 1", "home": false, "enemy": "Dresdener Wölfe" ,"result_h": 99, "result_a": 99},
+        {"name": "Spiel - 2", "home": false, "enemy": "Dresdener Wölfe" ,"result_h": 99, "result_a": 99},
+        {"name": "Spiel - 3", "home": false, "enemy": "Dresdener Wölfe" ,"result_h": 99, "result_a": 99},
+        {"name": "Spiel - 4", "home": false, "enemy": "Dresdener Wölfe" ,"result_h": 99, "result_a": 99}
     ]
   },
   {
     "id": 1,
-    "date": "5.11.2025",
-    "name": "WSV Preussen Pirna vs. SV Blau-Weiß Dresden",
-    "type": "Testspiel",
+    "date": "3.11.2024",
+    "name": "Paulaner Cup 2024",
+    "type": "Turnier",
     "results": [
-        {"name": "Spiel - 1", "home": true, "enemy": "Wölfe" ,"result_h": 3, "result_a": 0},
-        {"name": "Spiel - 2", "home": false, "enemy": "Wölfe" ,"result_h": 0, "result_a": 7}
+        {"name": "Gruppenspiel - 1", "home": true, "enemy": "TuR Garten" ,"result_h": 1, "result_a": 4},
+        {"name": "Gruppenspiel - 2", "home": false, "enemy": "Wölfe" ,"result_h": 99, "result_a": 99},
+        {"name": "Gruppenspiel - 3", "home": false, "enemy": "Wölfe" ,"result_h": 99, "result_a": 99},
+        {"name": "Gruppenspiel - 4", "home": false, "enemy": "Wölfe" ,"result_h": 99, "result_a": 99},
+        {"name": "Gruppenspiel - 5", "home": false, "enemy": "Wölfe" ,"result_h": 99, "result_a": 99},
+        {"name": "Gruppenspiel - 6", "home": false, "enemy": "Wölfe" ,"result_h": 99, "result_a": 99},
+        {"name": "Gruppenspiel - 7", "home": false, "enemy": "Wölfe" ,"result_h": 99, "result_a": 99},
+        {"name": "Spiel um Platz 7 (n.E.)", "home": true, "enemy": "Dresdener Wölfe" ,"result_h": 7 , "result_a": 6}
     ]
   }
 ]

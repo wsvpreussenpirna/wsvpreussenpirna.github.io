@@ -19,7 +19,7 @@ export default function Sponsor() {
 
   return (
     <main
-      className="flex-grow bg-black bg-center bg-no-repeat bg-cover text-white px-6 py-12"
+      className="flex-grow bg-black bg-center bg-no-repeat bg-contain text-white px-6 py-12"
       style={{ backgroundImage: "url('/bg.png')" }}
     >
       <h2 className="text-3xl font-bold mb-10 text-center">Unsere Sponsoren</h2>
