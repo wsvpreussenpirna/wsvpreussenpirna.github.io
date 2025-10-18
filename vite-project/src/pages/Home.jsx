@@ -9,7 +9,7 @@ export default function Home() {
         <div>
           <h2 className="text-4xl font-bold mb-4">Schön, dass du hier bist!</h2>
           <p className="mb-6">
-            Das ist die offizielle Webseite des Wandersportvereins Preußen Pirna 2024 e. V. Nach der Gründung am 17. August 2024 und zahlreich absolvierten Turnieren und Spielen, konnten wir uns als geschätzter Hobbyverein im Raum Dresden-Pirna etablieren. Von anstehenden Turnieren bis hin zum Fanshop - In diesem Bereich findest du alles, was du über den WSV Preußen Pirna wissen musst. Werde auch du Teil unserer Geschichte!
+            Das ist die offizielle Webseite des Wandersportvereins Preußen Pirna 2024. Nach der Gründung am 17. August 2024 und zahlreich absolvierten Turnieren und Spielen, konnten wir uns als geschätzter Hobbyverein im Raum Dresden-Pirna etablieren. Von anstehenden Turnieren bis hin zum Fanshop - In diesem Bereich findest du alles, was du über den WSV Preußen Pirna wissen musst. Werde auch du Teil unserer Geschichte!
           </p>
           </div>
             <div className="flex min-h-[calc(100%)]">
